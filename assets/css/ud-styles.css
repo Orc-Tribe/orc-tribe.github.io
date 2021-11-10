@@ -708,6 +708,7 @@ p {
 
 .ud-single-feature {
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .ud-single-feature:hover .ud-feature-icon::before {
@@ -716,6 +717,7 @@ p {
 }
 
 .ud-single-feature .ud-feature-icon {
+  margin: auto;
   width: 70px;
   height: 70px;
   display: -webkit-box;
@@ -735,6 +737,10 @@ p {
   z-index: 1;
   text-align: center;
   margin-bottom: 40px;
+}
+
+.ud-single-feature .ud-feature-icon img {
+  border-radius: 14px;
 }
 
 .ud-single-feature .ud-feature-icon::before {
